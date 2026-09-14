@@ -122,7 +122,13 @@ maad/__pycache__/__init__.cpython-36.pyc
 
 #data
 *.xz
+*.wav
+*.npy
 
-# large model checkpoint files
+# ignore the folder where the results of the tutorials are stored
+results/*
+
+# large model checkpoint files and checkpoint folders
 *.onnx
 *.keras
+*/bacpipe_model_checkpoints/*
