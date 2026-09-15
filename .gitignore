@@ -128,6 +128,8 @@ maad/__pycache__/__init__.cpython-36.pyc
 # ignore the folder where the results of the tutorials are stored
 results/*
 
+data/domain_matching/*
+
 # large model checkpoint files and checkpoint folders
 *.onnx
 *.keras
