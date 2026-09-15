@@ -133,4 +133,4 @@ data/domain_matching/*
 # large model checkpoint files and checkpoint folders
 *.onnx
 *.keras
-*/bacpipe_model_checkpoints/*
+bacpipe_model_checkpoints/*
